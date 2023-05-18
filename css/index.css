@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+#sup-part {
+    display: flex;
+    background-color: #1B1D2D;
+}
+
+#bruno-img {
+    width: 30%;
+    border-radius: 10rem;
+    border-color: #e7dbdb;
+    border-style: solid;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+#bruno-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #e7dbdb;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+}
+
+#tec-info {
+    font-family: 'Montserrat', sans-serif;
+    color: #e7dbdb;
+    font-size: 0.6rem;
+    margin: -0.2rem 0 0 1rem;
+}
+
+a {
+    color: #e7dbdb;
+    font-size: 0.6rem;
+    text-decoration: none;
+    word-spacing: 0.3rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+i {
+    margin: 0.5rem 0 0 1rem;
+}
