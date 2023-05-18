@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+
+html {
+    background-color: #e7dbdb;
+}
+
 
 * {
     box-sizing: border-box;
@@ -14,14 +21,15 @@
 
 #bruno-img {
     width: 30%;
-    border-radius: 10rem;
+    border-radius: 20rem;
     border-color: #e7dbdb;
     border-style: solid;
-    margin: 0.5rem 0 0.5rem 0.5rem;
+    margin: 5rem 0 5rem 5rem;
 }
 
 #bruno-name {
     font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
     color: #e7dbdb;
 }
 
@@ -33,18 +41,39 @@
 #tec-info {
     font-family: 'Montserrat', sans-serif;
     color: #e7dbdb;
-    font-size: 0.6rem;
-    margin: -0.2rem 0 0 1rem;
+    font-size: 4rem;
+    margin: 0 0 0 4rem;
 }
 
 a {
     color: #e7dbdb;
-    font-size: 0.6rem;
+    font-size: 4rem;
     text-decoration: none;
     word-spacing: 0.3rem;
     font-family: 'Prompt', sans-serif;
 }
 
+a:hover {
+    color: #aa9f9f;
+}
+
 i {
-    margin: 0.5rem 0 0 1rem;
+    color: #e7dbdb;
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+    margin: 4rem 0 0 4rem;
+}
+
+#curriculum {
+}
+
+#about-title {
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 0.5rem;
+    width: 13%;
+    background-color: #BBBBBB;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0;
+    border: 0.1rem solid red;
 }
